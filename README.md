@@ -20,7 +20,7 @@ Tendo em vista que com esses padrões definitivamente melhorar a legibilidade e 
 * 🧪 JUnit
 * 📦 Maven
 * 📱 Android (emulador ou dispositivo físico)
-* 🟢 Node.js (necessário para execução do Appium Server, onde o Appium utiliza o protocolo WebDriver)
+* 🟢 Node.js (runtime utilizado pelo Appium Server)
 
 ---
 
