@@ -2,8 +2,7 @@
 
 ## 🎯 Objetivo
 
-Este projeto foi desenvolvido como meu primeiro passo na Automação Mobile, já que eu não possuía conhecimento prévio sobre testes automatizados nesse contexto.
-A escolha do Appium se tornou natural após uma pesquisa sobre as ferramentas mais utilizadas em empresas para automação mobile. Por ser uma solução cross-platform, o Appium se destaca por permitir a automação de aplicações em diferentes sistemas operacionais, o que é extremamente vantajoso em cenários onde o mesmo aplicativo precisa ser suportado em múltiplas plataformas.
+Projeto de automação mobile utilizando Appium, estruturado com foco em boas práticas como Page Object Model, reutilização de código e organização em camadas.
 
 ## 📌 Sobre o projeto
 
