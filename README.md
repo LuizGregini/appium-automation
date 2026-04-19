@@ -14,13 +14,45 @@ Tendo em vista que com esses padrões definitivamente melhorar a legibilidade e 
 
 ## 🛠️ Tecnologias e ferramentas utilizadas
 
-* ☕ Java
-* 🤖 Appium
-* 🌐 Selenium WebDriver
-* 🧪 JUnit
-* 📦 Maven
-* 📱 Android (emulador ou dispositivo físico)
-* 🟢 Node.js (runtime utilizado pelo Appium Server)
+* <p align="mid">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20"/>
+  Java
+</p>
+
+* <p align="mid">
+  <img src="https://github.com/user-attachments/assets/f04c4523-2c9e-4549-b1be-d47e0ccc215d" width="20"/>
+  Appium
+</p>
+
+* <p align="mid">
+  <img src="https://github.com/user-attachments/assets/00aaeb9b-5347-453f-9d76-41f628e0eef9" width="20"/>
+  Selenium WebDriver
+</p>
+
+* <p align="mid">
+  <img src="https://github.com/user-attachments/assets/7f08d15f-ea25-470e-8166-107b668a3119" width="20"/>
+  JUnit 5
+</p>
+
+* <p align="mid">
+  <img src="https://github.com/user-attachments/assets/0d4cbba8-c416-452f-8e6b-9a3d12ed079e" width="20"/>
+  Maven
+</p>
+
+* <p align="mid">
+  <img src="https://github.com/user-attachments/assets/a59a8fa0-6e78-4707-af50-f030575b909b" width="20"/>
+  Allure reports
+</p>
+
+* <p align="mid">
+  <img src="https://github.com/user-attachments/assets/9cb99b7f-00d5-4bcb-adaa-c24af4e31b95" width="20"/>
+  Android (emulador ou dispositivo físico)
+</p>
+
+* <p align="mid">
+  <img src="https://github.com/user-attachments/assets/90bf6de5-1b8a-456f-9b4c-707fb8eaa4cc" width="20"/>
+  Node.js (runtime utilizado pelo Appium Server)
+</p>
 
 ---
 
