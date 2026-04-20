@@ -211,11 +211,9 @@ Já dentro do menu Suíte, é possível visualizar cada classe de teste executad
 
 ---
 
-## 📌 Observações importantes
+## 📌 Observação importante
 
-* O projeto utiliza arquivos `.apk` para execução dos testes, somente uma resalva que para utilizar a funcionalidade de WebView é necessário utilizar a apk CTAppium_1_2
-* Algumas dependências e drivers podem variar conforme o ambiente
-* Recomenda-se uso de `.gitignore` para evitar versionamento de arquivos desnecessários
+* O projeto utiliza arquivos `.apk` para execução dos testes, somente uma resalva que para utilizar a funcionalidade de WebView é necessário utilizar a apk CTAppium_1_2 pois é a versão que est[a disponibilizado essa compatibilidade.
 
 ---
 
