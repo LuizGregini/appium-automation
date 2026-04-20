@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfd27eaf-3a1a-46df-ba5a-af2e1f87a8d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CursoAppium/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/hs_err_pid79564.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/apks/CTAppium_1_2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/apks/CTAppium_2_0.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/core/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/core/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/core/DSL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/core/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/helpers/ContaHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/hooks/Hook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/AbasPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/AccordionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/AlertasPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/CliquesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/DragAndDropPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/FormularioPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/MenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/OpcaoBemEscondidaPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SBNContasPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SBNHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SBNLoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SBNMovimentacoesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SBNResumoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SeuBarrigaNativoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SplashPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SwipeListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/SwipePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/page/WebViewPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/runners/RunTestAppium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/AbasTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/AccordionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/AlertasTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/CliquesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/DragAndDropTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/FormularioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/OpcaoBemEscondidaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SBNContasTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SBNHomeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SBNLoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SBNMovimentacoesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SBNResumoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SeuBarrigaNativoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SplashTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SwipeListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/SwipeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoAppium/src/test/java/test/WebViewTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="38hx4fiNPNYUeaTjkazw8aghl7d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CalculadoraTeste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AbasTest.deveInteragirComAbas.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccordionTest.deveInteragirComAccordion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AlertasTest.deveClicarForaAlerta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AlertasTest.deveConfirmaAlerta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculadoraTeste.Run.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculadoraTeste.RunTestAppium.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculadoraTeste.main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CliquesTest.deveInteragirComCliqueLOngo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CliquesTest.deveRealizarCliqueLongo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DragAndDropTest.deveInteragirComDragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Formulario.RunTestAppium.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Formulario.RunTestAppium2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Formulario.RunTesteFormulario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Formulario.validaFormulario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormularioTest.deveInteragirComSeekBar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormularioTest.devePreencherEValidarFormulario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormularioTest.devePreencherEValidarFormularioDemorado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormularioTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormularioTest.preencheFormulario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormularioTest.testeSimples.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormularioTestAntigo.preencheFormulario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OpcaoBemEscondidaTest.deveEncontrarOpcaoBemEscondida.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNContasTest.deveCriarConta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNContasTest.deveExcluirConta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNHomeTest.deveAcessarAbaHome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNHomeTest.deveExcluirMovimentacao.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNHomeTest.deveValidarCriarMovimentacao.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNLoginTest.naoDeveRealizarLoginComSenhaInvalida.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNLoginTest.realizaLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNLoginTest.realizaLoginWithSucess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNMovimentacoesTest.deveRealizarMovimentacao.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNMovimentacoesTest.deveRealizarMovimentacao2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNMovimentacoesTest.deveRealizarMovimentacaoComReceita.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SBNResumoTest.deveDeletarResumo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoPage.deveInteragirComMenuNativo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.TestComplete.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveCriarConta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveCriarUmaNovaConta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveCriarUmaNovaConta2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveExcluirConta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveExcluirConta2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveInteragirComMenuNativo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveRealizarLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.deveRealizarMovimentacao.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SeuBarrigaNativoTest.testeAnexoFake.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SplashTest.deveAguardarSplashSumir.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SplashTest.deveClicarNoSplash.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SwipeListTest.deveInteragirWithSwipeList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SwipeTest.deveInteragirWithSwipe.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebViewTest.deveFazerLogin.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gus_t/Estudo/Curso_Java_Nelio_Udemy/PrimeiroPrograma/CursoAppium/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SeuBarrigaNativoTest.deveCriarConta">
+    <configuration name="DragAndDropTest.deveInteragirComDragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DragAndDropTest" />
+      <option name="METHOD_NAME" value="deveInteragirComDragAndDrop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SBNMovimentacoesTest.deveRealizarMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SBNMovimentacoesTest" />
+      <option name="METHOD_NAME" value="deveRealizarMovimentacao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeuBarrigaNativoTest.deveCriarConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SeuBarrigaNativoTest" />
+      <option name="METHOD_NAME" value="deveCriarConta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeuBarrigaNativoTest.deveRealizarMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SeuBarrigaNativoTest" />
+      <option name="METHOD_NAME" value="deveRealizarMovimentacao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeuBarrigaNativoTest.testeAnexoFake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SeuBarrigaNativoTest" />
+      <option name="METHOD_NAME" value="testeAnexoFake" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SeuBarrigaNativoTest.deveCriarConta" />
+        <item itemvalue="JUnit.DragAndDropTest.deveInteragirComDragAndDrop" />
+        <item itemvalue="JUnit.SeuBarrigaNativoTest.testeAnexoFake" />
+        <item itemvalue="JUnit.SBNMovimentacoesTest.deveRealizarMovimentacao" />
+        <item itemvalue="JUnit.SeuBarrigaNativoTest.deveRealizarMovimentacao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfd27eaf-3a1a-46df-ba5a-af2e1f87a8d1" name="Changes" comment="" />
+      <created>1769265417065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769265417065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CursoAppium$CalculadoraTeste.ic" NAME="CalculadoraTeste Coverage Results" MODIFIED="1770194089660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Appium.*</FILTER>
+    </SUITE>
+  </component>
+</project>
