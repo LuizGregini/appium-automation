@@ -170,7 +170,7 @@ allure serve allure-results
 
 ### Resultados apresentados:
 
-Esse é Overview apresentado ao entrar na página inicial após executado a Suíte de teste:
+Esse é Overview apresentado ao entrar na página inicial após executado a Suíte de testes:
 
 
 <img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/fce5e101-b171-4490-b65f-232914e64d7e" />
