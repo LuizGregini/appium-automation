@@ -143,6 +143,33 @@ mvn clean test
 
 ---
 
+
+### 📊 Relatórios com Allure Report:
+
+O Allure Report é utilizado para gerar uma visão executiva e técnica dos resultados. É necessário a instalação do allure reports caso ainda não tenha atráves do comando:
+
+```bash
+choco install allure
+```
+
+Visualizar o relatório:
+Após a execução dos testes, execute o comando abaixo para gerar o relatório temporário e abri-lo no navegador:
+
+```bash
+allure serve allure-results
+```
+
+Após gerar o relatórie abrir em seu navegador ele será demonstrado desta forma visualmente:
+
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/fce5e101-b171-4490-b65f-232914e64d7e" />
+
+
+Já dentro do menu Suíte é possível visualizar cada classe de teste que foi executada, contando com imagem mesmo se foi um teste que passou ou falhou e seu devido retorno de informação.
+
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/a4c67542-419f-4b44-a08f-f0de84d55c0e" />
+
+---
+
 ## 📱 Funcionalidades automatizadas
 
 * ✅ Login na aplicação
@@ -183,8 +210,6 @@ mvn clean test
 
 ---
 
-<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/fce5e101-b171-4490-b65f-232914e64d7e" />
 
-<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/a4c67542-419f-4b44-a08f-f0de84d55c0e" />
 
 
