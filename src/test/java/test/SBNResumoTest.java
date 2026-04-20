@@ -7,6 +7,7 @@ import page.SBNHomePage;
 import page.SBNResumoPage;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Disabled;
 
 public class SBNResumoTest extends BaseTest {
 

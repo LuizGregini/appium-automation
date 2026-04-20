@@ -4,20 +4,23 @@ import core.BaseTest;
 import helpers.ContaHelper;
 import org.junit.jupiter.api.Test;
 import page.SeuBarrigaNativoPage;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class SeuBarrigaNativoTest extends BaseTest {
     SeuBarrigaNativoPage seuBarrigaNativoPage = new SeuBarrigaNativoPage();
+    BaseTest b = new BaseTest();
 
     @Test
     public void deveCriarConta(){
         realizarLogin();
         ContaHelper.criarConta();
-        assertEquals("Conta adicionada com sucesso", seuBarrigaNativoPage.resultContaCriadaSucesso());
+        assertEquals("Conta adicionada com sucessooooo", seuBarrigaNativoPage.resultContaCriadaSucesso()); // AQUI FALHA DE PROPÓSITO SÓ PARA MOSTRAR NA PRINT
     }
 
     @Test
     public void deveExcluirConta(){
+        realizarLogin();
         seuBarrigaNativoPage.selecionaMenuConta();
         String nomeContaExclusao = ContaHelper.criarConta();
         ContaHelper.excluirConta(nomeContaExclusao);
@@ -26,6 +29,7 @@ public class SeuBarrigaNativoTest extends BaseTest {
 
     @Test
     public void deveRealizarMovimentacao(){
+        realizarLogin();
         String nomeContaCriadaParaMov = ContaHelper.criarConta();
         seuBarrigaNativoPage.selecionaMenuMovimentacao();
         seuBarrigaNativoPage.selecionaTipoLancamentoReceita();

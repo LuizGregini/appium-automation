@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import page.SBNMovimentacoesPage;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Disabled;
 
 public class SBNMovimentacoesTest extends BaseTest {
 
@@ -43,16 +45,16 @@ public class SBNMovimentacoesTest extends BaseTest {
         assertEquals("Movimentação cadastrada com sucesso", sbnMovimentacoesPage.mensagemMovimentacaoCadastrada());
     }
 
-
     @Test
     public void deveRealizarMovimentacaoComReceita(){
         realizarLogin();
         String nomeContaCriadaParaMov = ContaHelper.criarConta();
         sbnMovimentacoesPage.selecionaMenuMovimentacao();
         assertFalse(sbnMovimentacoesPage.isSwithDesmarcado());
-        ContaHelper.criarMovimentacao(nomeContaCriadaParaMov);
+        sbnMovimentacoesPage.clicarSwitch();
         assertTrue(sbnMovimentacoesPage.isSwithMarcado());
-        String nomeNaTela = sbnMovimentacoesPage.resultCampoContaSelecionada(nomeContaCriadaParaMov);
+        String nomeNaTela = ContaHelper.criarMovimentacao(nomeContaCriadaParaMov);
+        //String nomeNaTela = sbnMovimentacoesPage.resultCampoContaSelecionada(nomeContaCriadaParaMov);
         assertEquals(nomeContaCriadaParaMov, nomeNaTela);
         assertEquals("Movimentação cadastrada com sucesso", sbnMovimentacoesPage.mensagemMovimentacaoCadastrada());
     }

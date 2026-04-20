@@ -20,7 +20,6 @@ public class SwipeListTest extends BaseTest {
         swipeListPage.swipeOpcao4();
         swipeListPage.clicarEmMenos();
         assertEquals("Opção 4 (-)", swipeListPage.resultOpcao4());
-        System.out.println(swipeListPage.resultOpcao5());
         assertEquals("Opção 5 (-)", swipeListPage.resultOpcao5());
         swipeListPage.swipeOpcao5();
         assertEquals("Opção 5", swipeListPage.resultOpcao5());

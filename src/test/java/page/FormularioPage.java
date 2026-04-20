@@ -22,7 +22,7 @@ public class FormularioPage extends BasePage {
     private final By diaSelecionado = (AppiumBy.accessibilityId("25 janeiro 2003"));
     private final By campoCalendarioOK = (AppiumBy.id("android:id/button1"));
     private final By resultData = (AppiumBy.xpath("//android.widget.TextView[starts-with(@text, 'Data:')]"));
-    private final By campoHora = (AppiumBy.xpath("//android.widget.TextView[@text='09:00']"));
+    private final By campoHora = (AppiumBy.xpath("//android.widget.TextView[@text='12:00']"));
     private final By campoHoraSelecionada = AppiumBy.accessibilityId("19");
     private final By campoMinutoSelecionado = (AppiumBy.accessibilityId("35"));
     private final By selecionaOkHora = (AppiumBy.id("android:id/button1"));

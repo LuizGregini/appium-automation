@@ -13,11 +13,12 @@ public class SBNLoginPage extends BasePage {
     private final By mensagemLoginInvalido = (AppiumBy.xpath("//android.widget.TextView[@text='Usuário ou senha inválido']"));
 
     public void deveDigitarNome(){
-        escrever(campoNome, "nikinha@teste.com");
+        //Site para se cadastrar: https://seubarriga.wcaquino.me
+        escrever(campoNome, "YouHaveCreatedANewUserForAccess");
     }
 
     public void deveDigitarSenha(){
-        escrever(campoSenha, "neymar123");
+        escrever(campoSenha, "YouHaveCreatedANewPasswordForAccess");
     }
 
     public void deveDigitarSenhaIncorreta(){

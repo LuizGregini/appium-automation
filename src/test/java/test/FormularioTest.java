@@ -60,6 +60,5 @@ public class FormularioTest extends BaseTest {
     public void deveInteragirComSeekBar(){
         formPage.utilizarSeekBar();
         formPage.clicarSalvarFormulario();
-
     }
 }

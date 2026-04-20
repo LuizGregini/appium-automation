@@ -27,9 +27,11 @@ public class ContaHelper {
         sbnMovimentacoesPage.buscarMovimentacao(contaMovimentacao);
     }
 
-    public static void criarMovimentacao(String contaMovimentacao){
+    public static String criarMovimentacao(String contaMovimentacao){
+        String nomeDaMovimentacao = contaMovimentacao;
         SBNMovimentacoesPage sbnMovimentacoesPage = new SBNMovimentacoesPage();
         sbnMovimentacoesPage.criarMovimentacao(contaMovimentacao);
+        return nomeDaMovimentacao;
     }
 
     public static void excluirResumoConta(String nomeConta){

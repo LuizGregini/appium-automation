@@ -10,7 +10,7 @@ public class SeuBarrigaNativoPage extends BasePage {
     public final String valor = "999";
     private final By telaConta = (AppiumBy.xpath("//android.widget.TextView[@text='Contas']"));
     private final By contaAdicionadaSucesso = (AppiumBy.xpath("//*[contains(@text,'Conta adicionada com sucesso')]"));
-    private final By contaExcluidaSucesso = (AppiumBy.xpath("//android.widget.TextView[starts-with(@text,'Conta excluída')]"));
+    private final By contaExcluidaSucesso = (AppiumBy.xpath("//*[contains(@text,'Conta excluída com sucesso')]"));
     private final By telaMovimentacao = (AppiumBy.xpath("//android.widget.TextView[@text='Mov...']"));
     private final By campoSalvarMovimentacao = (AppiumBy.xpath("//android.widget.TextView[@text='SALVAR']"));
     private final By mensagemCampoDescricaoObrigatorio = (AppiumBy.xpath("//android.widget.TextView[@text='Descrição é um campo obrigatório']"));

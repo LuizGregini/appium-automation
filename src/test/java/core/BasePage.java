@@ -67,12 +67,12 @@ public class BasePage {
     }
 
     public WebElement esperarElementoVisivel(By locator){
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(10))
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(15))
                 .until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     public void esperarElementoSumir(By locator){
-        new WebDriverWait(getDriver(), Duration.ofSeconds(15))
+        new WebDriverWait(getDriver(), Duration.ofSeconds(10))
                 .until(ExpectedConditions.invisibilityOfElementLocated(locator));
     }
 
@@ -91,18 +91,17 @@ public class BasePage {
 
     public void clicarSeekBar(By locator, double posicao){
         int delta = 50;
+        esperarElementoClicavel(locator);
         WebElement seek = getDriver().findElement(locator);
         int y = seek.getLocation().y + (seek.getSize().height / 2);
         int xInixial = seek.getLocation().x + delta;
-        System.out.println(y);
-        int x = (int) (xInixial + ((seek.getSize().width - 2*delta) * posicao));
-        System.out.println(x);
+        int x = (int) (xInixial + ((seek.getSize().width - 2 * delta) * posicao));
         tap(x,y);
     }
 
     public boolean isElementoVisivel(By locator){
         try {
-            new WebDriverWait(getDriver(), Duration.ofSeconds(4))
+            new WebDriverWait(getDriver(), Duration.ofSeconds(10))
                     .until(ExpectedConditions.visibilityOfElementLocated(locator));
             return true;
         } catch (TimeoutException e) {
@@ -136,7 +135,6 @@ public class BasePage {
         boolean podeRolar = true;
         while (podeRolar) {
             if (isElementoVisivel(locator)) {
-                System.out.println("Achou o elemento: " + locator);
                 return true;
             }
             podeRolar = (Boolean) getDriver().executeScript("mobile: scrollGesture", Map.of(
@@ -148,7 +146,6 @@ public class BasePage {
                     "percent", 1.0
             ));
         }
-        System.out.println("Não achou o elemento: " + locator);
         return false;
     }
 
@@ -164,7 +161,6 @@ public class BasePage {
                     "direction", direcao,
                     "percent", 0.8
             ));
-            System.out.println(podeFazerSwipe);
         } while (podeFazerSwipe);
         return false;
     }
@@ -186,7 +182,6 @@ public class BasePage {
         isElementoVisivel(locator);
         WebElement element = getDriver().findElement(locator);
         Rectangle areaRetangulo = element.getRect();
-        System.out.println("x: " + areaRetangulo.getX() + " y: " + areaRetangulo.getY() + " w: " + areaRetangulo.getWidth() + " h: " + areaRetangulo.getHeight());
         getDriver().executeScript("mobile: swipeGesture", Map.of(
                 "elementId", ((RemoteWebElement) element).getId(),
                 "direction", direcao,
@@ -207,13 +202,37 @@ public class BasePage {
         ));
     }
 
+    public void dragAndDrop2(By locatorInitial, By locatorFinal) {
+
+        isElementoVisivel(locatorInitial);
+        isElementoVisivel(locatorFinal);
+
+        WebElement start = getDriver().findElement(locatorInitial);
+        WebElement end = getDriver().findElement(locatorFinal);
+
+        Rectangle startRect = start.getRect();
+        Rectangle endRect = end.getRect();
+
+        int startX = startRect.getX() + startRect.getWidth() / 2;
+        int startY = startRect.getY() + startRect.getHeight() / 2;
+
+        int endX = endRect.getX() + endRect.getWidth() / 2;
+        int endY = endRect.getY() + endRect.getHeight() / 2;
+
+        getDriver().executeScript("mobile: dragGesture", Map.of(
+                "startX", startX,
+                "startY", startY,
+                "endX", endX,
+                "endY", endY
+        ));
+    }
+
     public List<String> percorreListaElement(){
         List<WebElement> elementosDepois = getDriver().findElements(
                 AppiumBy.className("android.widget.TextView"));
         List<String> listaDepois = elementosDepois.stream()
                 .map(WebElement::getText)
                 .collect(Collectors.toList());
-        System.out.println(listaDepois);
         return listaDepois;
     }
 

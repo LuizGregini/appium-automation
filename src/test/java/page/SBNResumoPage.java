@@ -19,7 +19,6 @@ public class SBNResumoPage extends BasePage {
     }
 
     public void excluirResumoConta(String nomeConta){
-        System.out.println(nomeConta);
         By byContainer = AppiumBy.xpath("//android.widget.TextView[@text='"+nomeConta+"']/ancestor::android.view.ViewGroup[1]");
         scrollTelaParaBaixoAteEncontrar(byContainer, "down");
         swipePorLocationWithLocator(byContainer, "left");
