@@ -88,8 +88,8 @@ src/test/java
 │   ├── SwipeTest.java
 │   └── ... (demais testes)
 │
-└── runners
-    └── RunTestAppium.java
+└── utils
+    └── ScreenshotWatcher.java
 ```
 
 ---
