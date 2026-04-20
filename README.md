@@ -6,9 +6,11 @@ Projeto de automação mobile utilizando Appium, estruturado com foco em boas pr
 
 ## 📌 Sobre o projeto
 
-Este projeto consiste em uma suíte de automação de testes mobile desenvolvida com **Appium** e **Java**, com foco em validar funcionalidades de aplicações Android.
-A automação foi construída utilizando boas práticas de mercado, como o padrão **Page Object Model (POM)** e abstrações como DSL.
-Tendo em vista que com esses padrões definitivamente melhorar a legibilidade e manutenção dos testes.
+Este projeto consiste em uma suíte de automação de testes mobile desenvolvida com **Appium** e **Java**, com foco na validação de funcionalidades em aplicações Android.
+
+A automação foi construída utilizando boas práticas de mercado, como o padrão **Page Object Model (POM)** e abstrações como DSL, garantindo maior legibilidade, reutilização e facilidade de manutenção dos testes.
+
+Além disso, o projeto conta com integração ao **Allure Reports**, permitindo a geração de relatórios detalhados, com evidências visuais (screenshots) e informações completas sobre a execução dos testes, tanto em casos de sucesso quanto de falha.
 
 ---
 
