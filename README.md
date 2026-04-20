@@ -175,6 +175,7 @@ Esse é Overview apresentado ao entrar na página inicial após executado a Suí
 
 <img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/fce5e101-b171-4490-b65f-232914e64d7e" />
 
+<br>
 
 Já dentro do menu Suíte, é possível visualizar cada classe de teste executada, incluindo evidências em imagem tanto para testes aprovados quanto para falhos, além das respectivas informações detalhadas de retorno:
 
