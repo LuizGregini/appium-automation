@@ -1,5 +1,7 @@
 # 📱 Appium Automation - Mobile Test Project
 
+Suíte de automação de testes mobile utilizando Appium, com geração de relatórios avançados via Allure e evidências automáticas em falhas.
+
 ## 🎯 Objetivo
 
 Projeto de automação mobile utilizando Appium, estruturado com foco em boas práticas como Page Object Model, reutilização de código e organização em camadas.
